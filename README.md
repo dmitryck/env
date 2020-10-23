@@ -1,4 +1,4 @@
-# Enviroment build script for Ruby (in bash)
+# Enviroment build script for Ruby/Rails (in bash)
 
 ## Ubuntu 18.04
 
