@@ -1,6 +1,22 @@
-# Enviroments
+# Enviroments for developers
 
-## ubuntu-ruby.sh
+Contains bash scripts for build specific enviroment, wich includes nessesary staff
+
+## Smoke:
+
+```bash
+git clone git@github.com:dmitryck/env.git
+
+cd env
+
+# build enviroment
+# ruby in ubuntu, for example
+./ubuntu-ruby.sh
+```
+
+## Build scripts
+
+### ubuntu-ruby.sh
 
 Include:
 - libs
