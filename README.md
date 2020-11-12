@@ -1,6 +1,6 @@
 # Enviroments for developers
 
-Contains bash scripts for build specific enviroment, wich includes nessesary staff
+Contains bash scripts for building specific enviroment on clean machine, wich includes nessesary staff
 
 ## Smoke:
 
