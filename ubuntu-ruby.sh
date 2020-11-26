@@ -4,7 +4,9 @@ sudo add-apt-repository -y ppa:neovim-ppa/stable
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 sudo apt update
-sudo apt install -y git curl bzip2 build-essential libssl-dev libreadline-dev zlib1g-dev postgresql postgresql-contrib libpq-dev neovim yarn nodejs screen
+sudo apt install -y git curl bzip2 build-essential libssl-dev libreadline-dev zlib1g-dev postgresql postgresql-contrib libpq-dev neovim yarn nodejs screen python2 python3 python3-pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
 curl -sLf https://spacevim.org/install.sh | bash
 git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 echo '
