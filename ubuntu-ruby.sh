@@ -25,4 +25,7 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor 
 cd ~/.rbenv/plugins/ruby-build
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 . ~/.bashrc
-rbenv install ${RUBY-2.7.1}
+rbenv install ${RUBY-2.7.2}
+rbenv global ${RUBY-2.7.2}
+gem install neovim
+yarn global add neovim
